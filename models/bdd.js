@@ -11,7 +11,7 @@ var options = {
  
 
 // --------------------- BDD -----------------------------------------------------
-mongoose.connect(`mongodb+srv://admin:mydatabase@cluster0.pw3a0.mongodb.net/Ticketac?retryWrites=true&w=majority`,
+mongoose.connect(`mongodb+srv://admin:azerty@cluster0.3pfrz.azure.mongodb.net/ticetac?retryWrites=true&w=majority`,
    options,
    function(err) {
     if (err) {
